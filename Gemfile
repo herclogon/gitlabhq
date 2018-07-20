@@ -22,7 +22,7 @@ gem 'faraday', '~> 0.12'
 
 # Authentication libraries
 gem 'devise', '~> 4.2'
-gem 'doorkeeper', '~> 4.2.0'
+gem 'doorkeeper', '~> 4.4.0'
 gem 'doorkeeper-openid_connect', '~> 1.2.0'
 gem 'omniauth', '~> 1.4.2'
 gem 'omniauth-auth0', '~> 1.4.1'
@@ -78,7 +78,7 @@ gem 'github-linguist', '~> 4.7.0', require: 'linguist'
 # API
 gem 'grape', '~> 1.0'
 gem 'grape-entity', '~> 0.6.0'
-gem 'rack-cors', '~> 0.4.0', require: 'rack/cors'
+gem 'rack-cors', '0.4.1'
 
 # Disable strong_params so that Mash does not respond to :permitted?
 gem 'hashie-forbidden_attributes'
