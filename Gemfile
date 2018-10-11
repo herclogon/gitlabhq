@@ -4,7 +4,7 @@ gem 'rails', '4.2.8'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.3', '>= 2.3.0'
 
 gem 'sprockets', '~> 3.7.0'
 
@@ -21,8 +21,8 @@ gem 'grape-route-helpers', '~> 2.1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.2'
-gem 'doorkeeper', '~> 4.2.0'
+gem 'devise', '~> 4.2', '>= 4.2.0'
+gem 'doorkeeper', '~> 4.2.6'
 gem 'doorkeeper-openid_connect', '~> 1.2.0'
 gem 'omniauth', '~> 1.4.2'
 gem 'omniauth-auth0', '~> 1.4.1'
@@ -37,7 +37,7 @@ gem 'omniauth-oauth2-generic', '~> 0.2.2'
 gem 'omniauth-saml', '~> 1.7.0'
 gem 'omniauth-shibboleth', '~> 1.2.0'
 gem 'omniauth-twitter', '~> 1.2.0'
-gem 'omniauth_crowd', '~> 2.2.0'
+gem 'omniauth_crowd', '~> 2.2.3'
 gem 'omniauth-authentiq', '~> 0.3.1'
 gem 'rack-oauth2', '~> 1.2.1'
 gem 'jwt', '~> 1.5.6'
@@ -69,7 +69,7 @@ gem 'net-ldap'
 
 # Git Wiki
 # Required manually in config/initializers/gollum.rb to control load order
-gem 'gollum-lib', '~> 4.2', require: false
+gem 'gollum-lib', '~> 4.2', '>= 4.2.7', require: false
 gem 'gollum-rugged_adapter', '~> 0.4.4', require: false
 
 # Language detection
@@ -84,7 +84,7 @@ gem 'rack-cors', '~> 0.4.0', require: 'rack/cors'
 gem 'hashie-forbidden_attributes'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 
 # HAML
 gem 'hamlit', '~> 2.6.1'
@@ -93,12 +93,12 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 1.2'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.2'
 
 # for backups
-gem 'fog-aws', '~> 1.4'
+gem 'fog-aws', '~> 1.4', '>= 1.4.0'
 gem 'fog-core', '~> 1.44'
-gem 'fog-google', '~> 0.5'
+gem 'fog-google', '~> 0.5', '>= 0.5.3'
 gem 'fog-local', '~> 0.3'
 gem 'fog-openstack', '~> 0.1'
 gem 'fog-rackspace', '~> 0.1.1'
@@ -126,9 +126,9 @@ gem 'wikicloth', '0.8.1'
 gem 'asciidoctor', '~> 1.5.2'
 gem 'asciidoctor-plantuml', '0.0.7'
 gem 'rouge', '~> 2.0'
-gem 'truncato', '~> 0.7.9'
+gem 'truncato', '~> 0.7.10'
 gem 'bootstrap_form', '~> 2.7.0'
-gem 'nokogiri', '~> 1.8.1'
+gem 'nokogiri', '~> 1.8.5'
 
 # Diffs
 gem 'diffy', '~> 3.1.0'
@@ -202,10 +202,10 @@ gem 'ruby-fogbugz', '~> 0.2.1'
 gem 'kubeclient', '~> 2.2.0'
 
 # d3
-gem 'd3_rails', '~> 3.5.0'
+gem 'd3_rails', '~> 3.5.11'
 
 # Sanitize user input
-gem 'sanitize', '~> 2.0'
+gem 'sanitize', '~> 2.1', '>= 2.1.0'
 gem 'babosa', '~> 1.0.2'
 
 # Sanitizes SVG input
@@ -241,11 +241,11 @@ gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.5.2'
 gem 'bootstrap-sass', '~> 3.3.0'
-gem 'font-awesome-rails', '~> 4.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'gemojione', '~> 3.3'
 gem 'gon', '~> 6.1.0'
 gem 'jquery-atwho-rails', '~> 1.3.2'
-gem 'jquery-rails', '~> 4.1.0'
+gem 'jquery-rails', '~> 4.1.1'
 gem 'request_store', '~> 1.3'
 gem 'select2-rails', '~> 3.5.9'
 gem 'virtus', '~> 1.0.1'
@@ -324,8 +324,8 @@ group :development, :test do
   # Generate Fake data
   gem 'ffaker', '~> 2.4'
 
-  gem 'capybara', '~> 2.15.0'
-  gem 'capybara-screenshot', '~> 1.0.0'
+  gem 'capybara', '~> 2.15.1'
+  gem 'capybara-screenshot', '~> 1.0.14'
   gem 'poltergeist', '~> 1.9.0'
 
   gem 'spring', '~> 2.0.0'
@@ -370,7 +370,7 @@ gem 'octokit', '~> 4.6.2'
 gem 'mail_room', '~> 0.9.1'
 
 gem 'email_reply_trimmer', '~> 0.1'
-gem 'html2text'
+gem 'html2text', '>= 0.2.0'
 
 gem 'ruby-prof', '~> 0.16.2'
 
@@ -407,5 +407,5 @@ gem 'flipper', '~> 0.10.2'
 gem 'flipper-active_record', '~> 0.10.2'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.5', '>= 0.5.1'
 gem 'grape_logging', '~> 1.7'
