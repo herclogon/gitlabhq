@@ -4,7 +4,7 @@ gem 'rails', '4.2.8'
 gem 'rails-deprecated_sanitizer', '~> 1.0.3'
 
 # Responders respond_to and respond_with
-gem 'responders', '~> 2.0'
+gem 'responders', '~> 2.3', '>= 2.3.0'
 
 gem 'sprockets', '~> 3.7.0'
 
@@ -21,8 +21,8 @@ gem 'grape-route-helpers', '~> 2.1.0'
 gem 'faraday', '~> 0.12'
 
 # Authentication libraries
-gem 'devise', '~> 4.2'
-gem 'doorkeeper', '~> 4.2.0'
+gem 'devise', '~> 4.2', '>= 4.2.0'
+gem 'doorkeeper', '~> 4.2.6'
 gem 'doorkeeper-openid_connect', '~> 1.2.0'
 gem 'omniauth', '~> 1.4.2'
 gem 'omniauth-auth0', '~> 1.4.1'
@@ -84,7 +84,7 @@ gem 'rack-cors', '~> 0.4.0', require: 'rack/cors'
 gem 'hashie-forbidden_attributes'
 
 # Pagination
-gem 'kaminari', '~> 1.0'
+gem 'kaminari', '~> 1.0', '>= 1.0.1'
 
 # HAML
 gem 'hamlit', '~> 2.6.1'
@@ -93,7 +93,7 @@ gem 'hamlit', '~> 2.6.1'
 gem 'carrierwave', '~> 1.2'
 
 # Drag and Drop UI
-gem 'dropzonejs-rails', '~> 0.7.1'
+gem 'dropzonejs-rails', '~> 0.7.2'
 
 # for backups
 gem 'fog-aws', '~> 1.4'
@@ -202,14 +202,14 @@ gem 'ruby-fogbugz', '~> 0.2.1'
 gem 'kubeclient', '~> 2.2.0'
 
 # d3
-gem 'd3_rails', '~> 3.5.0'
+gem 'd3_rails', '~> 3.5.11'
 
 # Sanitize user input
 gem 'sanitize', '~> 2.0'
 gem 'babosa', '~> 1.0.2'
 
 # Sanitizes SVG input
-gem 'loofah', '~> 2.0.3'
+gem 'loofah', '~> 2.2.3'
 
 # Working with license
 gem 'licensee', '~> 8.7.0'
@@ -241,11 +241,11 @@ gem 'uglifier', '~> 2.7.2'
 
 gem 'addressable', '~> 2.5.2'
 gem 'bootstrap-sass', '~> 3.3.0'
-gem 'font-awesome-rails', '~> 4.7'
+gem 'font-awesome-rails', '~> 4.7', '>= 4.7.0.1'
 gem 'gemojione', '~> 3.3'
 gem 'gon', '~> 6.1.0'
 gem 'jquery-atwho-rails', '~> 1.3.2'
-gem 'jquery-rails', '~> 4.1.0'
+gem 'jquery-rails', '~> 4.1.1'
 gem 'request_store', '~> 1.3'
 gem 'select2-rails', '~> 3.5.9'
 gem 'virtus', '~> 1.0.1'
@@ -407,5 +407,5 @@ gem 'flipper', '~> 0.10.2'
 gem 'flipper-active_record', '~> 0.10.2'
 
 # Structured logging
-gem 'lograge', '~> 0.5'
+gem 'lograge', '~> 0.5', '>= 0.5.1'
 gem 'grape_logging', '~> 1.7'
