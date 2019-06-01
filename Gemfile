@@ -392,8 +392,8 @@ gem 'net-ssh', '~> 4.1.0'
 
 # Required for ED25519 SSH host key support
 group :ed25519 do
-  gem 'rbnacl-libsodium'
-  gem 'rbnacl', '~> 4.0'
+  gem 'rbnacl-libsodium', '>= 1.0.11'
+  gem 'rbnacl', '~> 4.0', '>= 4.0.2'
   gem 'bcrypt_pbkdf', '~> 1.0'
 end
 
